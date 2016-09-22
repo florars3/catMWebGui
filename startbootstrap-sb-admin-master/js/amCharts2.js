@@ -12,8 +12,7 @@ var chart = AmCharts.makeChart( "chartdiv1", {
 	"legend": {
 		"enabled": true,
 		"align": "center",
-		"markerType": "circle",
-		"minradius":90
+		"markerType": "circle"
 	},
 	"titles": [
 		{
