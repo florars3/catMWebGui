@@ -2,11 +2,12 @@ var chart = AmCharts.makeChart( "chartdiv", {
 	"type": "pie",
 	"angle": 20.7,
 	"balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
+	"labelText": "[[percents]]%",
 	"depth3D": 15,
 	"titleField": "category",
 	"valueField": "column-1",
 	"theme": "light",
-	"minRadius":90,
+	"minRadius":80,
 	"allLabels": [],
 	"balloon": {},
 	"legend": {
