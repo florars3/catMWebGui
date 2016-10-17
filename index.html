@@ -19,6 +19,9 @@
     <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
     <script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
 
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -33,6 +36,9 @@
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
+    <!-- style sheets for Google Maps infowindows etc. -->
+    <link href="css/maps.css" rel="stylesheet">
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -115,7 +121,7 @@
                                   <h3 class="panel-title"><i class="glyphicon glyphicon-map-marker"></i> Interative Map</h3>
                               </div>
                               <div class="panel-body">
-                                  <div id="chartdiv2"></div>
+                                  <div id="map_div"></div>
                                   <div class="text-right">
                                       <a href="#">View Details <i class="fa fa-arrow-circle-right"></i></a>
                                   </div>
@@ -146,6 +152,10 @@
     <script src="js/amCharts2.js"></script>
     <script src="js/amCharts3.js"></script>
     <script src="js/collapse.js"></script>
+
+    <!-- Google Maps Javascript for creating the contents of the map_div panel -->
+    <script src="js/googleMaps.js"></script>
+    <script type="text/javascript">drawMap();</script> 
 
     <!-- Menu Toggle Script -->
     <script>
