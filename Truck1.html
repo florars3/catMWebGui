@@ -39,6 +39,7 @@
     <!-- style sheets for Google Maps infowindows etc. -->
     <link href="css/maps.css" rel="stylesheet">
 
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -69,38 +70,38 @@
                     <a href="#menu-toggle" id="menu-toggle"><i class="fa fa-bars" style="font-size:25px;"
                       aria-hidden="true"></i></a>
                 </li>
-                <li class="active">
-                    <a href="index.html">
-                        <i class="fa fa-tachometer" style="font-size:25px; color:#3ab534;" aria-hidden="true"></i></a>
-                </li>
                 <li>
+                    <a href="index.html"><i class="fa fa-tachometer" style="font-size:25px;color:#3ab534;" aria-hidden="true"></i></a>
+                </li>
+                </li>
+                <li class="active">
                     <span style="font-size: 0.75">
                     <a href="Truck1.html"><img class="scale" src="images/GreenTruck_orig.png"
-                     style="width:20%; height: 10%"> Truck1</a>
+                     style="width:20%; height: 10%"></a>
                   </span>
                     <li>
                         <span style="font-size: 0.75">
-                      <a href="#"><img class="scale" src="images/TruckGrey.png"
-                       style="width:20%; height: 10%"></a>
-                    </span>
+                    <a href="#"><img class="scale" src="images/TruckGrey.png"
+                     style="width:20%; height: 10%"></a>
+                  </span>
                     </li>
                     <li>
                         <span style="font-size: 0.75">
-                      <a href="#"><img class="scale" src="images/TruckGrey.png"
-                       style="width:20%; height: 10%"></a>
-                    </span>
+                    <a href="#"><img class="scale" src="images/TruckGrey.png"
+                     style="width:20%; height: 10%"></a>
+                  </span>
                     </li>
                     <li>
                         <span style="font-size: 0.75">
-                      <a href="#"><img class="scale" src="images/TruckGrey.png"
-                       style="width:20%; height: 10%"></a>
-                    </span>
+                    <a href="#"><img class="scale" src="images/TruckGrey.png"
+                     style="width:20%; height: 10%"></a>
+                  </span>
                     </li>
                     <li>
                         <span style="font-size: 0.75">
-                      <a href="#"><img class="scale" src="images/TruckGrey.png"
-                       style="width:20%; height: 10%"></a>
-                    </span>
+                    <a href="#"><img class="scale" src="images/TruckGrey.png"
+                     style="width:20%; height: 10%"></a>
+                  </span>
                     </li>
             </ul>
         </div>
@@ -116,12 +117,57 @@
                     <div class="col-lg-4">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 class="panel-title"> <i class="fa fa-wpforms" aria-hidden="true"></i> FLEET VEHICLE STATUS </h3>
+                                <h3 class="panel-title"> TELEMETRICS </h3>
                                 <span class="pull-right clickable"><i class="glyphicon glyphicon-chevron-up"></i></span>
                             </div>
                             <div class="panel-body">
-                                <div id="chartdiv"></div>
-                                <div id="chartdiv1"></div>
+                                <div class="table1Info">
+                                    <table class="table table-hover">
+                                        <tbody>
+                                            <tr>
+                                                <td><i class="fa fa-sort-numeric-asc" aria-hidden="true"></i> Refrigation temperature</td>
+                                                <td align="right">12 C</td>
+                                            </tr>
+                                            <tr>
+                                                <td><i class="fa fa-ambulance" aria-hidden="true"></i> Accident Alert</td>
+                                                <td align="right">STABLE</td>
+                                            </tr>
+                                            <tr>
+                                                <td><i class="fa fa-unlock" aria-hidden="true"></i> Container Door</td>
+                                                <td align="right">OPEN</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <a href="#" class="thumbnail">
+                                    <img src="cat.jpg" alt="...">
+                                </a>
+                                <div class="table2Info">
+                                    <table class="table table-hover">
+                                        <tbody>
+                                            <tr>
+                                                <td>Vehicle number</td>
+                                                <td align="right">123456789</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Driver</td>
+                                                <td align="right">Name Lastname</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Route</td>
+                                                <td align="right">Routename</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Delivery destination</td>
+                                                <td align="right">Destination</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Location</td>
+                                                <td align="right">Current Location</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
